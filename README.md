@@ -4,7 +4,7 @@
 * Date: 27 November, 2016
 
 ## Slides
-View slides here: [https://ekhall.github.io/2016-aimed-security/](https://ekhall.github.io/2016-aimed-security/)
+View slides here: [https://ekhall.github.io/2016-aimed-blockchain/](https://ekhall.github.io/2016-aimed-blockchain/)
 
 ## About
 ### The slide files are in Org mode and converted to HTML via Org-Reveal
