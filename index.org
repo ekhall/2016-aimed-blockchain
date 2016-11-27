@@ -1,0 +1,18 @@
+#+REVEAL_ROOT: ./reveal.js
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: blood
+#+REVEAL_PLUGINS: notes:t
+#+OPTIONS: reveal_title_slide:nil toc:nil num:nil
+
+* Blockchains in Healthcare
+Healthcare Data and Databases
+AIMed 2016
+
+E. Kevin Hall 
+
+https://ekhall.gitlab.io
+
+* First
+#+BEGIN_NOTES
+These are speaker notes...
+#+END_NOTES
