@@ -38,5 +38,5 @@ Our next problem.
 [[./resources/med-personal-data.png]]
 
 #+BEGIN_NOTES
-We are experiencing an explosion from below in personal health devices. These obviously aren't home xrays but they are HR, BP, in some cases lab values like glucose.
+We are experiencing an explosion from below in personal health devices. These obviously aren't home xrays but they are HR, BP, in some cases lab values like glucose. This erosion from below has occured in other fields as well.
 #+END_NOTES
