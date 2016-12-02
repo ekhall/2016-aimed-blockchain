@@ -12,7 +12,31 @@ E. Kevin Hall
 
 https://ekhall.gitlab.io
 
-* First
+* What is health data?
+[[./resources/paperrecords.jpg]]
+
+#+ATTR_REVEAL: :frag roll-in
+Digital: No. Accessible: No
+
 #+BEGIN_NOTES
-These are speaker notes...
+In the past, health data for good reason used to be isolated to physical paper charts in a doctor's office. Minimally networked.
+#+END_NOTES
+
+* We moved to EHRs...
+[[./resources/uml.png]]
+
+#+ATTR_REVEAL: :frag roll-in
+Digital: Yes. Accessible: Still No
+
+#+BEGIN_NOTES
+Today we have moved to electronic health records, we have created digital complexity but done nothing for interoperability and accessibility. Most of these database schema are _very_ complex because we have tried to force semi-structured medical data into inflexible relational schema.  
+#+END_NOTES
+
+* Mobile Health 
+Our next problem.
+
+[[./resources/med-personal-data.png]]
+
+#+BEGIN_NOTES
+We are experiencing an explosion from below in personal health devices. These obviously aren't home xrays but they are HR, BP, in some cases lab values like glucose.
 #+END_NOTES
