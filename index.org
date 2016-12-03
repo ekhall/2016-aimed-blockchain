@@ -3,6 +3,7 @@
 #+REVEAL_THEME: blood
 #+REVEAL_PLUGINS: notes:t
 #+OPTIONS: reveal_title_slide:nil toc:nil num:nil
+#+REVEAL_HLEVEL: 1
 
 * Blockchains in Healthcare
 Healthcare Data and Databases
@@ -40,3 +41,47 @@ Our next problem.
 #+BEGIN_NOTES
 We are experiencing an explosion from below in personal health devices. These obviously aren't home xrays but they are HR, BP, in some cases lab values like glucose. This erosion from below has occured in other fields as well.
 #+END_NOTES
+
+* Unfulfilled Digital Promise 
+The promise of digital data is more than this.
+
+It's greater than isolated medical records on a hard disk.
+
+The promise is accessibility and interoperability.
+
+* Current Data Sharing 'Solutions'
+
+1. Hospital / Practice EHRs
+2. Patient "Portable" e.g. USB drives.
+3. "Independent" Third Party Cloud Services
+
+#+BEGIN_NOTES
+1. Not really working, data shared as PDFs.
+2. Bifurcates data, hard to keep sync.
+3. Hard to argue data is really free, just abstracted another level.
+4. None answer the question of personal health device data.
+#+END_NOTES
+
+* Blockchains
+A shared, distributed, immutable ledger for transactional data that establishes accountability and transparency.
+[[./resources/network-diagram.jpg]]
+
+On Distributed Communications, Paul Baran 1964
+
+#+BEGIN_NOTES
+Began with Bitcoin
+#+END_NOTES
+
+* Blockchain Qualities
+#+ATTR_REVEAL: :frag (appear)
+1. Ledger: Think Excel Spreadsheet
+2. Shared: Accepts input from multiple sources.
+3. Distributed: Data shared with all ("single copy"), accepts data from many
+4. Immutable: Once a "consensus" is agreed, data is unchangeable.
+
+#+BEGIN_NOTES
+
+#+END_NOTES 
+
+* Consensus
+
