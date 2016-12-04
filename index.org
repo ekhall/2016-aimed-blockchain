@@ -62,6 +62,34 @@ The promise is accessibility and interoperability.
 4. None answer the question of personal health device data.
 #+END_NOTES
 
+* Problems: Accessibility
+Need your records? Submit a request. Then maybe get a printout of them. 
+
+"MyChart"
+
+#+BEGIN_NOTES
+Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to mark a marketing box. Generally can't export it or manage it well. And if you export it and it gets updated? Two copies again.
+#+END_NOTES 
+
+* Problems: Interoperability
+Can data be used effectively?
+
+#+BEGIN_NOTES
+Hand in hand with Accessibility: can we use this data effectively between applications or health care providers? Can I contribute personal health data to my own record?
+#+END_NOTES 
+
+* Problems: Trust
+- Old world transactions required in-person meetings.
+- Today's digital transactions require third parties.
+
+#+BEGIN_NOTES
+1. If everyone created his/her own records of transactions he/she witnessed, would be multiple versions and conflicting transactions would cause split in what was true.
+2. Traditionally this is solved via trusted third parties.
+3. Blockchains solve this differently. Consensus.
+#+END_NOTES 
+
+* Consensus
+
 * Blockchains
 A shared, distributed, immutable ledger for transactional data that establishes accountability and transparency.
 [[./resources/network-diagram.jpg]]
@@ -74,7 +102,7 @@ Began with Bitcoin
 
 * Blockchain Qualities
 #+ATTR_REVEAL: :frag (appear)
-1. Ledger: Think Excel Spreadsheet
+1. Ledger: Think Spreadsheet
 2. Shared: Accepts input from multiple sources.
 3. Distributed: Data shared with all ("single copy"), accepts data from many
 4. Immutable: Once a "consensus" is agreed, data is unchangeable.
@@ -82,6 +110,3 @@ Began with Bitcoin
 #+BEGIN_NOTES
 
 #+END_NOTES 
-
-* Consensus
-
