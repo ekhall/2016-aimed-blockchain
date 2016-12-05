@@ -47,7 +47,7 @@ The promise of digital data is more than this.
 
 It's greater than isolated medical records on a hard disk.
 
-The promise is accessibility and interoperability.
+The promise is accessibility and interoperability. Our data should work for us; our patients' data should work for them.
 
 * Current Data Sharing 'Solutions'
 
@@ -68,7 +68,7 @@ Need your records? Submit a request. Then maybe get a printout of them.
 "MyChart"
 
 #+BEGIN_NOTES
-Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to mark a marketing box. Generally can't export it or manage it well. And if you export it and it gets updated? Two copies again.
+Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to check a marketing box. Generally can't export it or manage it well. And if you export it and it gets updated? Two copies again.
 #+END_NOTES 
 
 * Problems: Interoperability
@@ -84,11 +84,19 @@ Hand in hand with Accessibility: can we use this data effectively between applic
 
 #+BEGIN_NOTES
 1. If everyone created his/her own records of transactions he/she witnessed, would be multiple versions and conflicting transactions would cause split in what was true.
-2. Traditionally this is solved via trusted third parties.
+2. Traditionally this is solved via trusted third parties. Trusted third parties in the online world still allow impersonation, data corruption.
 3. Blockchains solve this differently. Consensus.
 #+END_NOTES 
 
-* Consensus
+* Ideal Goals
+#+ATTR_REVEAL: :frag (appear)
+1. Patients' records should be consistent and available across institutional boundaries.
+2. Access should be strictly determined by the patient him/herself.
+3. When shared, all parties should be able to understand the data with a goal of increasing healthcare quality.
+
+#+BEGIN_NOTES
+Without assurances to accuracy, privacy, and security nodes will not have incentive to share.
+#+END_NOTES
 
 * Blockchains
 A shared, distributed, immutable ledger for transactional data that establishes accountability and transparency.
@@ -100,13 +108,22 @@ On Distributed Communications, Paul Baran 1964
 Began with Bitcoin
 #+END_NOTES
 
-* Blockchain Qualities
+* Blockchain Qualities (1/2)
 #+ATTR_REVEAL: :frag (appear)
-1. Ledger: Think Spreadsheet
-2. Shared: Accepts input from multiple sources.
-3. Distributed: Data shared with all ("single copy"), accepts data from many
-4. Immutable: Once a "consensus" is agreed, data is unchangeable.
+1. A Blockchain is a distributed transaction ledger.
+2. Composed of "Blocks" which are time-similar collections of transactions.
+3. Blocks are immutable, integrity verified - each block contains a cryptographic hash.
+4. Hash of a block in the chain is dependent on the prior block. Chain is immutable.
 
 #+BEGIN_NOTES
-
+Because the hash of any incorporated block is based on the prior block, the chain is immutable. 
 #+END_NOTES 
+
+* Blockchain (image)
+[[./resources/blocks-in-chain.png]]
+
+* Blockain Qualities (2/2)
+1. A blockchain does not depend on a trusted central authority like a bank or hospital EHR.
+2. Instead the blockchain is distributed to all nodes which participate in the network.
+
+* Consensus
