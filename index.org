@@ -150,5 +150,5 @@ Began with Bitcoin
 - There is currently no single canonical data ledger.
 - Data is hidden from owners inside EHRs; owners do no effectively own their own health data.
 - Data owners are not the arbiters of data access.
-- 
+- ...
 - Blockchains answer all of these limitations.
