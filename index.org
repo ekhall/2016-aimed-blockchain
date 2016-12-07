@@ -13,7 +13,20 @@ E. Kevin Hall
 
 https://ekhall.gitlab.io
 
-** What is health data?
+** Healthcare Today
+ - We must reinvent healthcare to _be preventative_.
+ - *Current state of art:* Take point measurement (particularly if symptomatic) and compare to some clinical study (often from some time ago) on a "representative population".
+ - If outside a threshold, some decision is made.
+ - This is what sensitivity and specificity are based on.
+  
+#+BEGIN_NOTES
+1. No one should die of a treatable disease.
+#+END_NOTES
+** Representative Population
+ - A flawed idea.
+ - Doesn't fit with the idea that we all have our "unique" genetic code.
+ - And while genomics is important, we know twins vary in phenotypes: more encoded into our physiologic states than simple genomics.
+** What is Health Data?
 [[./resources/paperrecords.jpg]]
 
 #+ATTR_REVEAL: :frag roll-in
@@ -23,7 +36,7 @@ Digital: No. Accessible: No
 In the past, health data for good emacs span multiple columnsreason used to be isolated to physical paper charts in a doctor's office. Minimally networked.
 #+END_NOTES
 
-** We moved to EHRs...
+** We moved to EHRs..
 [[./resources/uml.png]]
 
 #+ATTR_REVEAL: :frag roll-in
@@ -47,8 +60,11 @@ The promise of digital data is more than this.
 
 It's greater than isolated medical records on a hard disk.
 
-The promise is accessibility and interoperability. Our data should work for us; our patients' data should work for them.
+The *promise is accessibility and interoperability*. Our data should work for us; our patients' data should work for them.
 
+#+BEGIN_NOTES
+No preventable disease should lead to death
+#+END_NOTES
 ** Current Data Sharing 'Solutions'
 
 - Hospital / Practice EHRs
@@ -127,7 +143,11 @@ Began with Bitcoin
 - Because no central authority validates the blockchain, a network consensus must be reached.
 
 ** Improvement: Accessibility
-
+- Blockchains promise to free our data from single data silos.
+- In an environment of tailored *personal* health data, blockchains allow much larger time-series of data and - with data tailored to us - can reduce the false positives on per-patient data.
+#+BEGIN_NOTES
+2. Not unique to blockchains, but the first to effectively and forseeably offer this at this scale - because it *massively increases accessibility across time and between institutions*.
+#+END_NOTES
 
 ** Improvement: Interoperability
 #+ATTR_REVEAL: :frag (appear)
