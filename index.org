@@ -20,12 +20,15 @@ https://ekhall.gitlab.io
  - This is what sensitivity and specificity are based on.
   
 #+BEGIN_NOTES
-1. No one should die of a treatable disease.
+1. We are dealing today with a number of imperatives. 
+2. No one should die of a treatable disease.
 #+END_NOTES
+
 ** Representative Population
  - A flawed idea.
  - Doesn't fit with the idea that we all have our "unique" genetic code.
  - And while genomics is important, we know twins vary in phenotypes: more encoded into our physiologic states than simple genomics.
+
 ** What is Health Data?
 [[./resources/paperrecords.jpg]]
 
@@ -33,7 +36,7 @@ https://ekhall.gitlab.io
 Digital: No. Accessible: No
 
 #+BEGIN_NOTES
-In the past, health data for good emacs span multiple columnsreason used to be isolated to physical paper charts in a doctor's office. Minimally networked.
+In the past, health data for good reason used to be isolated to physical paper charts in a doctor's office. Minimally networked.
 #+END_NOTES
 
 ** We moved to EHRs..
@@ -43,7 +46,7 @@ In the past, health data for good emacs span multiple columnsreason used to be i
 Digital: Yes. Accessible: Still No
 
 #+BEGIN_NOTES
-Today we have moved to electronic health records, we have created digital complexity but done nothing for interoperability and accessibility. Most of these database schema are _very_ complex because we have tried to force semi-structured medical data into inflexible relational schema.  
+Today we have moved to electronic health records, we have created digital complexity but done really very little for interoperability and accessibility. Too, most of these database schema are _very_ complex because we have tried to force semi-structured medical data into inflexible relational schema.  
 #+END_NOTES
 
 ** Mobile Health 
@@ -62,11 +65,13 @@ It's greater than isolated medical records on a hard disk.
 
 The *promise is accessibility and interoperability*. Our data should work for us; our patients' data should work for them.
 
-#+BEGIN_NOTES
-No preventable disease should lead to death
-#+END_NOTES
-** Current Data Sharing 'Solutions'
+And no preventable disease should lead to death.
 
+#+BEGIN_NOTES
+
+#+END_NOTES
+
+** Current Data Sharing 'Solutions'
 - Hospital / Practice EHRs
 - Patient "Portable" e.g. USB drives.
 - "Independent" Third Party Cloud Services
@@ -109,7 +114,8 @@ Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to 
 - When shared, all parties should be able to understand the data with a goal of increasing healthcare quality.
 
 #+BEGIN_NOTES
-Without assurances to accuracy, privacy, and security nodes will not have incentive to share.
+1. When we are thinking of where we need to be, these are some goals. 
+2. Without assurances to accuracy, privacy, and security nodes will not have incentive to share.
 #+END_NOTES
 
 ** Blockchains
@@ -141,28 +147,45 @@ Began with Bitcoin
 - A blockchain does not depend on a trusted central authority like a bank or hospital EHR.
 - Instead the blockchain is distributed to all nodes which participate in the network.
 - Because no central authority validates the blockchain, a network consensus must be reached.
+#+BEGIN_NOTES
+This consensus is mathematical
+#+END_NOTES
 
 ** Improvement: Accessibility
 - Blockchains promise to free our data from single data silos.
 - In an environment of tailored *personal* health data, blockchains allow much larger time-series of data and - with data tailored to us - can reduce the false positives on per-patient data.
+
 #+BEGIN_NOTES
-2. Not unique to blockchains, but the first to effectively and forseeably offer this at this scale - because it *massively increases accessibility across time and between institutions*.
+1. Not unique to blockchains, but the first to effectively and forseeably offer this at this scale - because it *massively increases accessibility across time and between institutions*.
+2. A *single, canonical medical record* that travels with the patient across institutions.
 #+END_NOTES
 
 ** Improvement: Interoperability
 #+ATTR_REVEAL: :frag (appear)
-1. Patients are seen at multiple institutions. In their points of view, their records are a sequential series of events irrespective of location. 
-2. Furthermore: later events can be based on earlier ones. A bad PFT might lead to prescription of an inhaler - and its prescription is _dependent_ on the first event.
+- Patients are seen at multiple institutions. In their points of view, their records are a sequential series of events irrespective of location. 
+- Furthermore: later events can be based on earlier ones. A bad PFT might lead to prescription of an inhaler - and its prescription is _dependent_ on the first event.
 #+BEGIN_NOTES
 2. Not broadly possible today.
 #+END_NOTES 
 
-
 ** Improvement: Trust
-#+ATTR_REVEAL: :frag (appear)
-
+- First, all data is cryptographically secure. 
+- Much like in banks, access is given appropriately as needed.
+- But more: The chain is immutable, later blocks depend on the accuracy of those earlier.
+- In sync, distributed data: there is not any single point of failure more important than any other. 
 
 ** Consensus
+- Network consensus is the most subtle aspect of this.
+- Bitcoin: Proof of Work
+- Health: "Proof of Interoperability"? (Peterson, et. al)
+
+Interoperability with FHIR Profiles
+
+Miner election is distributed evenly. 
+
+#+BEGIN_NOTES
+1. In Blockchain: Proof of Work, which is a novel idea where computers solve mathematical puzzles that are hard to achieve, but easy to verify. The puzzles are automatically created at a difficulty based on network compute power to ensure a fixed time for addition of new blocks.
+#+END_NOTES
 
 ** Summary
 #+ATTR_REVEAL: :frag (appear)
@@ -170,5 +193,5 @@ Began with Bitcoin
 - There is currently no single canonical data ledger.
 - Data is hidden from owners inside EHRs; owners do no effectively own their own health data.
 - Data owners are not the arbiters of data access.
-- ...
-- Blockchains answer all of these limitations.
+
+Blockchains answer all of these limitations.
