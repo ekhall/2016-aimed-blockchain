@@ -16,12 +16,12 @@ Yale University
 
 https://ekhall.gitlab.io
 
-*** Disclosure
+** Disclosure
 Founder, Archetyp Mobility
 
 www.archetyp.io
 
-*** Healthcare Today
+** Healthcare Today
  - We must reinvent healthcare to _be preventative_.
  - *Current state of art:* Take point measurement (particularly if symptomatic) and compare to some clinical study (often from some time ago) on a "representative population".
  - If outside a threshold, some decision is made.
@@ -32,12 +32,12 @@ www.archetyp.io
 2. No one should die of a treatable disease.
 #+END_NOTES
 
-*** "Representative Population"
+** "Representative Population"
  - A flawed idea.
  - Doesn't fit with the idea that we all have our "unique" genetic code.
  - And while genomics is important, we know twins vary in phenotypes: more encoded into our physiologic states than simple genomics.
 
-*** What is Health Data?
+** What is Health Data?
 [[./resources/paperrecords.jpg]]
 
 #+ATTR_REVEAL: :frag roll-in
@@ -47,7 +47,7 @@ Digital: No. Accessible: No
 In the past, health data for good reason used to be isolated to physical paper charts in a doctor's office. Minimally networked.
 #+END_NOTES
 
-*** We moved to EHRs..
+** We moved to EHRs..
 [[./resources/uml.png]]
 
 #+ATTR_REVEAL: :frag roll-in
@@ -57,7 +57,7 @@ Digital: Yes. Accessible: Still No
 Today we have moved to electronic health records, we have created digital complexity but done really very little for interoperability and accessibility. Too, most of these database schema are _very_ complex because we have tried to force semi-structured medical data into inflexible relational schema.  
 #+END_NOTES
 
-*** Mobile Health 
+** Mobile Health 
 Our next problem.
 
 [[./resources/med-personal-data.png]]
@@ -66,7 +66,7 @@ Our next problem.
 We are experiencing an explosion from below in personal health devices. These obviously aren't home xrays but they are HR, BP, in some cases lab values like glucose. This erosion from below has occured in other fields as well.
 #+END_NOTES
 
-*** Unfulfilled Digital Promise 
+** Unfulfilled Digital Promise 
 The promise of digital data is more than this.
 
 It's greater than isolated medical records on a hard disk.
@@ -79,7 +79,7 @@ And no preventable disease should lead to death.
 
 #+END_NOTES
 
-*** Current Data Sharing 'Solutions'
+** Current Data Sharing 'Solutions'
 - Hospital / Practice EHRs
 - Patient "Portable" e.g. USB drives.
 - "Independent" Third Party Cloud Services
@@ -91,7 +91,7 @@ And no preventable disease should lead to death.
 - None answer the question of personal health device data.
 #+END_NOTES
 
-*** Problems: Accessibility
+** Problems: Accessibility
 Need your records? Submit a request. Then maybe get a printout of them. 
 
 "MyChart"
@@ -100,12 +100,12 @@ Need your records? Submit a request. Then maybe get a printout of them.
 Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to check a marketing box. Generally can't export it or manage it well. And if you export it and it gets updated? Two copies again.
 #+END_NOTES 
 
-*** Problems: Interoperability
+** Problems: Interoperability
 #+ATTR_REVEAL: :frag (appear)
 - Can data be used effectively by all parties?
 - Can data _be used as a tool_ itself?
 
-*** Problems: Trust
+** Problems: Trust
 - Old world transactions required in-person meetings.
 - Today's digital transactions require third parties.
 
@@ -115,7 +115,7 @@ Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to 
 3. Blockchains solve this differently. Consensus.
 #+END_NOTES 
 
-*** Ideal Goals
+** Ideal Goals
 #+ATTR_REVEAL: :frag (appear)
 - Patients' records should be consistent and available across institutional boundaries.
 - Access should be strictly determined by the patient him/herself.
@@ -126,7 +126,7 @@ Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to 
 2. Without assurances to accuracy, privacy, and security nodes will not have incentive to share.
 #+END_NOTES
 
-*** Blockchains
+** Blockchains
 A shared, distributed, immutable ledger for transactional data that establishes accountability and transparency.
 [[./resources/network-diagram.jpg]]
 
@@ -136,7 +136,7 @@ On Distributed Communications, Paul Baran 1964
 Began with Bitcoin
 #+END_NOTES
 
-*** Blockchain Qualities (1/2)
+** Blockchain Qualities (1/2)
 #+ATTR_REVEAL: :frag (appear)
 - A Blockchain is a distributed transaction ledger.
 - Composed of "Blocks" which are time-similar collections of transactions.
@@ -148,10 +148,10 @@ Began with Bitcoin
 4. Because the hash of any incorporated block is based on the prior block, the chain is immutable. 
 #+END_NOTES 
 
-*** Blockchain (image)
+** Blockchain (image)
 [[./resources/blocks-in-chain.png]]
 
-*** Blockain Qualities (2/2)
+** Blockain Qualities (2/2)
 - A blockchain does not depend on a trusted central authority like a bank or hospital EHR.
 - Instead the blockchain is distributed to all nodes which participate in the network.
 - Because no central authority validates the blockchain, a network consensus must be reached.
@@ -159,7 +159,7 @@ Began with Bitcoin
 This consensus is mathematical
 #+END_NOTES
 
-*** Improvement: Accessibility
+** Improvement: Accessibility
 - Blockchains promise to free our data from single data silos.
 - In an environment of tailored *personal* health data, blockchains allow much larger time-series of data and - with data tailored to us - can reduce the false positives on per-patient data.
 
@@ -168,7 +168,7 @@ This consensus is mathematical
 2. A *single, canonical medical record* that travels with the patient across institutions.
 #+END_NOTES
 
-*** Improvement: Interoperability
+** Improvement: Interoperability
 #+ATTR_REVEAL: :frag (appear)
 - Patients are seen at multiple institutions. In their points of view, their records are a sequential series of events irrespective of location. 
 - Furthermore: later events can be based on earlier ones. A bad PFT might lead to prescription of an inhaler - and its prescription is _dependent_ on the first event.
@@ -176,13 +176,13 @@ This consensus is mathematical
 2. Not broadly possible today.
 #+END_NOTES 
 
-*** Improvement: Trust
+** Improvement: Trust
 - First, all data is cryptographically secure. 
 - Much like in banks, access is given appropriately as needed.
 - But more: The chain is immutable, later blocks depend on the accuracy of those earlier.
 - In sync, distributed data: there is not any single point of failure more important than any other. 
 
-*** Consensus
+** Consensus
 - Network consensus is the most subtle aspect of this.
 - Bitcoin: Proof of Work
 - Health: "Proof of Interoperability"? (Peterson, et. al)
