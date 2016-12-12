@@ -40,7 +40,6 @@ www.archetyp.io
 ** What is Health Data?
 [[./resources/paperrecords.jpg]]
 
-#+ATTR_REVEAL: :frag roll-in
 Digital: No. Accessible: No
 
 #+BEGIN_NOTES
@@ -50,7 +49,6 @@ In the past, health data for good reason used to be isolated to physical paper c
 ** We moved to EHRs..
 [[./resources/uml.png]]
 
-#+ATTR_REVEAL: :frag roll-in
 Digital: Yes. Accessible: Still No
 
 #+BEGIN_NOTES
@@ -75,10 +73,6 @@ The *promise is accessibility and interoperability*. Our data should work for us
 
 And no preventable disease should lead to death.
 
-#+BEGIN_NOTES
-
-#+END_NOTES
-
 ** Current Data Sharing 'Solutions'
 - Hospital / Practice EHRs
 - Patient "Portable" e.g. USB drives.
@@ -101,7 +95,6 @@ Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to 
 #+END_NOTES 
 
 ** Problems: Interoperability
-#+ATTR_REVEAL: :frag (appear)
 - Can data be used effectively by all parties?
 - Can data _be used as a tool_ itself?
 
@@ -116,7 +109,6 @@ Some EHRs offer patient portals, EPIC has MyChart. Just enough functionality to 
 #+END_NOTES 
 
 ** Ideal Goals
-#+ATTR_REVEAL: :frag (appear)
 - Patients' records should be consistent and available across institutional boundaries.
 - Access should be strictly determined by the patient him/herself.
 - When shared, all parties should be able to understand the data with a goal of increasing healthcare quality.
@@ -137,7 +129,6 @@ Began with Bitcoin
 #+END_NOTES
 
 ** Blockchain Qualities (1/2)
-#+ATTR_REVEAL: :frag (appear)
 - A Blockchain is a distributed transaction ledger.
 - Composed of "Blocks" which are time-similar collections of transactions.
 - Blocks are immutable, integrity verified - each block contains a cryptographic hash.
@@ -169,7 +160,6 @@ This consensus is mathematical
 #+END_NOTES
 
 ** Improvement: Interoperability
-#+ATTR_REVEAL: :frag (appear)
 - Patients are seen at multiple institutions. In their points of view, their records are a sequential series of events irrespective of location. 
 - Furthermore: later events can be based on earlier ones. A bad PFT might lead to prescription of an inhaler - and its prescription is _dependent_ on the first event.
 #+BEGIN_NOTES
@@ -196,7 +186,6 @@ Miner election is distributed evenly.
 #+END_NOTES
 
 ** Summary
-#+ATTR_REVEAL: :frag (appear)
 - We have not achieved the true value of digital health data. 
 - There is currently no single canonical data ledger.
 - Data is hidden from owners inside EHRs; owners do no effectively own their own health data.
