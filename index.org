@@ -67,7 +67,7 @@ We are experiencing an explosion from below in personal health devices. These ob
 ** Unfulfilled Digital Promise 
 The promise of digital health data is more than this.
 
-It's greater than isolated medical records on a hard disk.
+It's greater than isolated medical records on some hard disk.
 
 The *promise is accessibility and interoperability*. Our data should work for us; our patients' data should work for them.
 
