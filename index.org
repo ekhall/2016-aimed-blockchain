@@ -147,7 +147,7 @@ This consensus is mathematical
 ** Improvement: Accessibility
 - Blockchains promise to free our data from single data silos.
 - In an environment of tailored *personal* health data, blockchains create a single canonical dataset dependent on time, but independent of third parties. 
-- With single, longitudinal time series of very /personal/ data can reduce personal false positives.
+- With single, longitudinal time series of very /personal/ data, can reduce personal false positives.
 
 #+BEGIN_NOTES
 1. Not unique to blockchains, but the first to effectively and forseeably offer this at this scale - because it *massively increases accessibility across time and between institutions*.
