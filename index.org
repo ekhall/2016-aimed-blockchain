@@ -155,7 +155,7 @@ This consensus is mathematical
 #+END_NOTES
 
 ** Improvement: Interoperability
-- Patients are seen at multiple institutions. In their points of view, their records are a sequential series of events irrespective of location. 
+- _Patients are seen at multiple institutions._ In their points of view, their records are a sequential series of events irrespective of location. 
 - Furthermore: later events can be based on earlier ones. A bad PFT might lead to prescription of an inhaler - and its prescription is _dependent_ on the first event.
 #+BEGIN_NOTES
 2. Not broadly possible today.
@@ -186,4 +186,4 @@ Miner election is distributed evenly.
 - Data is hidden from owners inside EHRs; owners do no effectively own their own health data.
 - Data owners are not the arbiters of data access.
 
-Blockchains answer all of these limitations.
+*It is likely that blockchains can answer these limitations.*
